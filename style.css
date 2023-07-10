@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    /* background-image: url(images/wallpaperflare.com_wallpaper\ \(5\).jpg); */
+    
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    border: 1px solid black;
+    border: none;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 10vh;
+    position: relative;
+    justify-content: space-between;
+    padding: 10px 0px;
+    display: flex;
+    background-color: darkgoldenrod;
+}
+nav{
+    position: sticky;
+    top: 0;
+    right: 0;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    justify-content: space-around;
+    margin: 5px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+nav li a:hover{
+    box-shadow: 0 0 5px white,0 0 10px 0 0 15px white;
+    color: black;
+    cursor: pointer;
+    background-color: white;
+    padding: 5px 3px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+/* nav li:hover{
+    : 0 0 5px white,0 0 10px 0 0 15px white;
+} */
+em a{
+    color: burlywood;
+    text-decoration: none;
+}
+#image img{
+    width: 100%;
+    height: 80vh;
+    border-radius: 25px;  
+    margin-left: 50%; 
+    margin-top: 5vh;
+}
+@keyframes example{
+    from{color: green;}
+    to{color: blue;}
+}
+#Home h3{
+    font-size: 1rem;
+    color: white;
+    margin-left: 25%;
+    margin-top: 40vh;
+}
+#Home h3 i{
+    color: white;
+    font-size: 2.5rem;
+    animation-duration: 4s;
+    animation-name: example;
+}
+#Home{
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+header{
+    border: 1px solid black;
+    padding: 10px 0;
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+    text-align: center;
+    justify-content: center;
+    margin-top: 0.5%;
+}
+#abo{
+      /* border: 1px solid black; */
+    padding: 10px 0;
+    background-color: gray;
+    font-weight: bold;
+}
+#About{
+    display: flex;
+    margin-top: 5%;
+    --animate-repeat: 2;
+}
+#About img{
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    border-radius: 25px;
+    margin-left: 20px;
+}
+#About p{
+    margin-left: 5%;
+    font-size: 2rem;
+    margin-top: 2%;
+}
+#About p i{
+    color: cadetblue;
+    font-size:3rem;
+    font-family: century;
+}
+#Skills,#red{
+    margin-top: 0.5%;
+    width: 50%;
+    height: 100vh;
+}
+
+
