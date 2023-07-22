@@ -5,24 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="base.css">
     <title>Portfolio</title>
 </head>
-<body>
+<body id="change">
     <section>
         <nav id="first">
             <li><em><a href="#Name">Sammy_<span>D</span></a></em></li>
             <ul id="sec">
                 <li><a href="#Home"><i class="fa-solid fa-house fa-sm"></i> Home</a></li>
                 <li><a href="#About"><i class="fa-solid fa-address-card fa-sm"></i> About Me</a></li>
-                <li><a href="#Skills">                <i class="fa-solid fa-code fa-sm"></i> Skills</a></li>
+                <li><a href="#Skills"><i class="fa-solid fa-code fa-sm"></i> Skills</a></li>
                 <li><a href="#Projects"><i class="fa-solid fa-briefcase fa-sm"></i> Projects</a></li>
                 <li><a href="#Contact"><i class="fa-solid fa-address-book fa-sm"></i> Contact</a></li>
+                <button onclick="opps()"><i class="fa-solid fa-moon fa-sm"></i></button>
+                <button onclick="opp()"><i class="fa-solid fa-lightbulb fa-sm"></i></button>
 
             </ul>
         </nav>
+       
        <section id="Home">
-            <h3>Hi, my name is <br> <i>OLOWE AYODELE<i></h3>
-            <!-- <h3>A front end developer</h3> -->
+            <h3>Hi, my name is <br> <i>OLOWE AYODELE <br> SAMUEL <i><br><button><a href="mailto:oloweayodele09@gmail.com">Hire me</a></button></h3>
+            
            <div id="image">
             <img src="images/WhatsApp Image 2023-07-05 at 14.55.16.jpg" alt="">
            </div>
@@ -31,17 +35,71 @@
        <section id="About">
         <img src="images/WhatsApp Image 2023-07-05 at 14.55.16.jpg" alt="wallpaper">
         <p>
-            <i>A front end developer</i> <br> <br>
-            An ethusiast of Projects who is ready to give all his best to solve 
-            <br> any unsolve problems and i'll be highly motivated 
-            <br> and passionate to work alongside any 
-            <br>organizations and facilitate them.</p>
+            <i>A front end developer</i> <br>
+            An ethusiast of Projects who is ready to give all his best <br> to solve 
+            any unsolve problems and i'll be highly <br> motivated 
+            and passionate to work alongside any 
+            organizations and facilitate them. </p> 
        </section>
        <header>My Skills</header>
-       <section id="#Skills">
-        <img id="red" src="images/skills.jpg" alt="">
-            <main></main>
+       <section id="Skills">
+            <img id="red" src="images/skills.jpg" alt="">
+            <div id="flex">
+                <em>Front end developer</em>
+                <button type="submit"><i class="fa-solid fa-pen-to-square fa-sm"></i> Building,interactive user interface using React js</button> <br>
+                    <button type="submit"><i class="fa-solid fa-pen-to-square fa-sm"></i> Building large scale web application</button> <br>
+                <button type="submit"><i class="fa-solid fa-pen-to-square fa-sm"></i> Building responsive web Application</button> <br>
+            </div>
+               
        </section>
-    </section>    
+       <main>
+        <marquee behavior="scroll" direction="left">
+            <img src="images/icons8-html-48.png" alt="html">
+            <img src="images/icons8-css-48.png" alt="css">
+            <img src="images/icons8-javascript-64.png" alt="javascript">
+            <img src="images/icons8-react-native-48.png" alt="react">
+            <img src="images/icons8-api-64.png" alt="api">
+            <img src="images/icons8-bootstrap-48.png" alt="">
+            <img src="images/icons8-tailwindcss-48.png" alt="">
+        </main>
+        </marquee> 
+       
+        <header id="pro">Project</header>
+        <div id="Projects">
+        <a href=" https://sammyktech.github.io/LoversCalculator/"><img src="images/lover.png" alt=""></a>
+        <a href="https://sammyktech.github.io/simpleCalculator/"><img src="images/simple.png" alt=""></a>
+        <a href=" https://sammyktech.github.io/schoolGradeSystem/"><img src="images/grade.png" alt=""></a>
+        </div>
+        <div id="Projects1">
+        <a href="https://sammyktech.github.io/facebookSignUpPage/"><img src="images/fb.png" alt=""></a>
+        <a href="https://sammyktech.github.io/scientificCalculator/"><img src="images/scientific.png" alt=""></a>
+        <a href=" https://sammyktech.github.io/twinzLoveClone/"><img src="images/twinzlove.png" alt=""></a>
+        </div>
+           <header>Contact</header>
+           <div id="Contact">
+            <a href="mailto:oloweayodele09@gmail.com"><i class="fa-solid fa-envelope fa-sm"></i> Email</a> |
+            <!-- <hr> -->
+            <a href="https://m.me/olowe sammy dman"><i class="fa-brands fa-facebook fa-sm"></i> Facebook</a> |
+            <!-- <hr> -->
+            <a href="http://www.linkedin.com/in/ayodele-olowe-b22ab5239"><i class="fa-brands fa-linkedin fa-sm"></i> Linkedin</a>|
+            <!-- <hr> -->
+            <a href="https://github.com/Sammyktech"><i class="fa-brands fa-github fa-sm"></i> GitHub</a> 
+            <!-- <hr> -->
+            </div>
+        <div id="Contact2">
+            <a href="https://twitter.com/sammydman01"><i class="fa-brands fa-twitter fa-sm"></i> Twitter</a> |
+            <!-- <hr> -->
+            <a href="https://www.instagram.com/sammy_dman01/"><i class="fa-brands fa-instagram fa-sm"></i> instagram</a> |
+            <!-- <hr> -->
+            <a href=" https://wa.me/+2348137371808"><i class="fa-brands fa-whatsapp fa-sm"></i> WhatsApp</a> |
+            <!-- <hr> -->
+            <a href="tel:+2348137371808"><i class="fa-solid fa-phone fa-sm"></i> Phone number</a> 
+        </div>
+        <!-- <footer>
+        <button onclick="opps()"><i class="fa-solid fa-moon fa-sm"></i></button>
+        <button onclick="opp()"><i class="fa-solid fa-lightbulb fa-sm"></i></button>
+        </footer> -->
+    </section>  
+    <script src="main.js"></script>  
 </body>
 </html>
