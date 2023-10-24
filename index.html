@@ -3,46 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="base.css">
     <title>Portfolio</title>
 </head>
 <body id="change">
+    
     <section>
         <nav id="first">
+           
             <li><em><a href="#Name">Sammy_<span>D</span></a></em></li>
-            <ul id="sec">
+            <div class="colorc">
+                <button onclick="opps()"><i class="fa-solid fa-moon fa-sm"></i></button>
+                <button onclick="opp()"><i class="fa-solid fa-lightbulb fa-sm"></i></button>
+                     </div>
+            <div class="d-none d-md-flex">
+            <ul id="sec  ">
                 <li><a href="#Home"><i class="fa-solid fa-house fa-sm"></i> Home</a></li>
                 <li><a href="#About"><i class="fa-solid fa-address-card fa-sm"></i> About Me</a></li>
                 <li><a href="#Skills"><i class="fa-solid fa-code fa-sm"></i> Skills</a></li>
                 <li><a href="#Projects"><i class="fa-solid fa-briefcase fa-sm"></i> Projects</a></li>
                 <li><a href="#Contact"><i class="fa-solid fa-address-book fa-sm"></i> Contact</a></li>
-                <button onclick="opps()"><i class="fa-solid fa-moon fa-sm"></i></button>
-                <button onclick="opp()"><i class="fa-solid fa-lightbulb fa-sm"></i></button>
 
+               
             </ul>
+        </div>
+        <div class="dropdown d-md-none  ">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-bars fa-sm"></i>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item active" href="#Home">Home</a></li>
+              <li><a class="dropdown-item" href="#About">About Me</a></li>
+              <!-- <li><a class="dropdown-item" href="#Skills">Skills</a></li> -->
+              <li><a class="dropdown-item" href="#Projects">Projects</a></li>
+              <!-- <li><hr class="dropdown-divider"></li> -->
+              <li><a class="dropdown-item" href="#Contact">Contact</a></li>
+            </ul>
+            
+          </div>
         </nav>
        
-       <section id="Home">
-            <h3>Hi, my name is <br> <i>OLOWE AYODELE <br> SAMUEL <i><br><button><a href="mailto:oloweayodele09@gmail.com">Hire me</a></button></h3>
+       <!-- <section class="Home d-md-block d-block d-lg-flex ms-sm-5 container-fluid"> -->
+       
+           
             
-           <div id="image">
-            <img src="images/WhatsApp Image 2023-07-05 at 14.55.16.jpg" alt="">
-           </div>
-       </section>
+           <!-- <div id="image"> -->
+            <!-- <img src="images/WhatsApp Image 2023-07-05 at 14.55.16.jpg" alt=""> -->
+           <!-- </div> -->
+       <!-- </section> -->
+       <section id="Home">
+       <div class="mee d-md-block d-sm-block d-lg-flex d-block mt-sm-5">
+        <div class="block">
+            <img class="image" src="images/mypics.jpg" alt="">
+        
+       
+      
+    </div> 
+            <div id="up">
+                <h3><em>OLOWE AYODELE SAMUEL</em></h3>
+                <button class="butt"><a href="mailto:oloweayodele09@gmail.com">Hire me</a>  <br></button> 
+    </div>
+        </div>
+        </section>
        <header id="abo">About me</header>
+       
        <section id="About">
-        <img src="images/WhatsApp Image 2023-07-05 at 14.55.16.jpg" alt="wallpaper">
+        <div class="d-md-block d-sm-block d-lg-flex d-block w-md-100">
+        <img src="images/mypics.jpg" alt="wallpaper">
         <p>
             <i>A front end developer</i> <br>
             An ethusiast of Projects who is ready to give all his best <br> to solve 
             any unsolve problems and i'll be highly <br> motivated 
             and passionate to work alongside any 
-            organizations and facilitate them. </p> 
+            organizations and facilitate them. </p>
+        </div> 
        </section>
+    
        <header>My Skills</header>
+       
        <section id="Skills">
+        <div class=" d-md-block d-sm-block d-lg-flex d-block ">
+        <div class="d-block d-lg-flex d-md-block">
             <img id="red" src="images/skills.jpg" alt="">
             <div id="flex">
                 <em>Front end developer</em>
@@ -63,20 +107,29 @@
             <img src="images/icons8-tailwindcss-48.png" alt="">
         </main>
         </marquee> 
-       
+    </div>
+</div>
         <header id="pro">Project</header>
+       
         <div id="Projects">
-        <a href=" https://sammyktech.github.io/LoversCalculator/"><img src="images/lover.png" alt=""></a>
+            <div class=" d-md-block d-sm-block d-lg-flex d-block ">
+        <a href="https://ab-mfb-demo-project.netlify.app"><img src="images/afb project.png" alt=""></a>
+        <a href=" https://sammyktech.github.io/LoversCalculator/"><img src="images/lovecl.png" alt=""></a>
         <a href="https://sammyktech.github.io/simpleCalculator/"><img src="images/simple.png" alt=""></a>
         <a href=" https://sammyktech.github.io/schoolGradeSystem/"><img src="images/grade.png" alt=""></a>
+    </div>
         </div>
         <div id="Projects1">
+            <div class=" d-md-block d-sm-block d-lg-flex d-block ">
         <a href="https://sammyktech.github.io/facebookSignUpPage/"><img src="images/fb.png" alt=""></a>
         <a href="https://sammyktech.github.io/scientificCalculator/"><img src="images/scientific.png" alt=""></a>
         <a href=" https://sammyktech.github.io/twinzLoveClone/"><img src="images/twinzlove.png" alt=""></a>
         </div>
+        </div>
+   
            <header>Contact</header>
            <div id="Contact">
+            <div class=" d-md-block d-sm-block d-lg-flex d-block ">
             <a href="mailto:oloweayodele09@gmail.com"><i class="fa-solid fa-envelope fa-sm"></i> Email</a> |
             <!-- <hr> -->
             <a href="https://m.me/olowe sammy dman"><i class="fa-brands fa-facebook fa-sm"></i> Facebook</a> |
@@ -86,7 +139,9 @@
             <a href="https://github.com/Sammyktech"><i class="fa-brands fa-github fa-sm"></i> GitHub</a> 
             <!-- <hr> -->
             </div>
+            </div>
         <div id="Contact2">
+            <div class=" class=" d-md-block d-sm-block d-lg-flex d-block>
             <a href="https://twitter.com/sammydman01"><i class="fa-brands fa-twitter fa-sm"></i> Twitter</a> |
             <!-- <hr> -->
             <a href="https://www.instagram.com/sammy_dman01/"><i class="fa-brands fa-instagram fa-sm"></i> instagram</a> |
@@ -95,11 +150,13 @@
             <!-- <hr> -->
             <a href="tel:+2348137371808"><i class="fa-solid fa-phone fa-sm"></i> Contact</a> 
         </div>
+        </div>
         <!-- <footer>
         <button onclick="opps()"><i class="fa-solid fa-moon fa-sm"></i></button>
         <button onclick="opp()"><i class="fa-solid fa-lightbulb fa-sm"></i></button>
         </footer> -->
     </section>  
-    <script src="main.js"></script>  
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>  
 </body>
 </html>
