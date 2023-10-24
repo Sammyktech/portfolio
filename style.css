@@ -307,25 +307,25 @@ hr{
 #Contact a:hover{
     padding: 5px;
     border: none;
-    color: black;
+    /* color: black; */
     /* border: 1px solid blue; */
     font-weight: bold;
     /* border: none; */
     border-radius: 10px;
     font-size: 1.5rem;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
 }
-#Contact2 a:hover{
-    padding: 5px;
+/* #Contact2 a:hover{
+    /* padding: 5px;
     border: none;
     color: black;
     /* border: 1px solid blue; */
-    font-weight: bold;
+    /* font-weight: bold; */
     /* border: none; */
-    border-radius: 10px;
-    font-size: 1.5rem;
-    background-color: cadetblue;
-}
+    /* border-radius: 10px; */
+    /* font-size: 1.5rem; */
+    /* background-color: cadetblue; */ */
+ */
 
 nav button{
     font-size: 1rem;
